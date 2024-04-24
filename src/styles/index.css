@@ -1,12 +1,55 @@
+body{
+    background-color: rgb(236, 196, 20);
+}
+.container{
+    width:50%;
+}
 
-/* 
+h1 :first-child {
+    text-align: center;
+    margin-top: 100px;
+    color:firebrick;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.completeTask{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 400;
+    font-style: italic;
+    color:darkolivegreen;
+}
+ul{
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    padding: 5px;
+    border: none;
+    text-align: center;
+}
+input{
+    text-align: center;
+    border: none;
+    outline: none;
+    font-style: italic;
+    width: 100%;
+    background: transparent;
+}
+.tasks{
+    text-align: center;
+    border-top: grey 1px solid;
+    margin: 5px;
+    margin-top: 10%;
+}
+.deleteIcon{
+    float: right;
+    padding: 5px;
+    color: #c44536;
+    cursor: pointer;
+}
+.checkIcon{
+    float: left;
+    padding: 5px;
+    color: #299f08;
+    cursor: pointer;
+}
