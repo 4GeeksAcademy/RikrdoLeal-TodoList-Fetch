@@ -1,33 +1,30 @@
-body{
-    background-color: rgb(236, 196, 20);
-}
-.container{
-    width:50%;
+
+.container {
+    background-color: rgb(221, 221, 14);
+    margin-top: 40px;
+    width: 30%;
+    box-shadow: 20px 30px 20px rgb(114, 114, 12);
+    word-wrap: break-word;
 }
 
-h1 :first-child {
-    text-align: center;
-    margin-top: 100px;
-    color:firebrick;
-}
-
-.completeTask{
+h1 {
     text-align: center;
     margin-top: 100px;
     font-weight: 400;
-    font-style: italic;
-    color:darkolivegreen;
 }
-ul{
+
+ul {
     padding: 0;
 }
-ul li{
+
+ul li {
     list-style: none;
     padding: 5px;
     border: none;
     text-align: center;
 }
-input{
+
+input {
     text-align: center;
     border: none;
     outline: none;
@@ -35,21 +32,28 @@ input{
     width: 100%;
     background: transparent;
 }
-.tasks{
+
+.tasks {
     text-align: center;
     border-top: grey 1px solid;
     margin: 5px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
-.deleteIcon{
+
+.deleteIcon {
     float: right;
     padding: 5px;
     color: #c44536;
     cursor: pointer;
-}
-.checkIcon{
-    float: left;
-    padding: 5px;
-    color: #299f08;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
 }
+.deleteIcon:active {
+    transform: translateY(4px);
+  }
+.number{
+    color: #c44536;;
+  }
